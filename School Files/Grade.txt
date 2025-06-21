@@ -1,0 +1,10 @@
+17/20
+
+Some formatting errors in the pseudocode. The start keyword is the start of your main module and the stop keyword is the end of the main module.
+Pseudocode methods are missing the return keyword.
+In the flowchart, certain flow lines are missing arrow heads.
+In flowchart, many decision blocks are missing output labels ("yes"/"no").
+
+In code, there is a logic issue due to selection structure in victor(). 
+Because there are all ifs, they are all independent selection structures. 
+There is an 'else' at the bottom that is only a part of the last if, meaning that it will always print unless the if above the else is true.
